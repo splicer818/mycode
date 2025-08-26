@@ -1,0 +1,90 @@
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "admin",
+            "UserId": "AIDA4GJPB4HUMHYZR2WIC",
+            "Arn": "arn:aws:iam::838154183144:user/admin",
+            "CreateDate": "2022-07-26T15:19:21+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "admin_joe",
+            "UserId": "AIDA4GJPB4HUO4F24OIPM",
+            "Arn": "arn:aws:iam::838154183144:user/admin_joe",
+            "CreateDate": "2025-04-04T22:20:25+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "aws1",
+            "UserId": "AIDA4GJPB4HUEEKDLDA4F",
+            "Arn": "arn:aws:iam::838154183144:user/aws1",
+            "CreateDate": "2024-03-01T23:20:35+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "a_jkingsley",
+            "UserId": "AIDA4GJPB4HUPPVVYFUN7",
+            "Arn": "arn:aws:iam::838154183144:user/a_jkingsley",
+            "CreateDate": "2021-06-06T05:42:15+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "Bob",
+            "UserId": "AIDA4GJPB4HUPOJC74LGF",
+            "Arn": "arn:aws:iam::838154183144:user/Bob",
+            "CreateDate": "2019-09-07T04:53:07+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "docker-cloud",
+            "UserId": "AIDAJC6BIO4FATQ57OHZS",
+            "Arn": "arn:aws:iam::838154183144:user/docker-cloud",
+            "CreateDate": "2016-03-28T17:42:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "friar",
+            "UserId": "AIDA4GJPB4HUAHXGZZJM3",
+            "Arn": "arn:aws:iam::838154183144:user/friar",
+            "CreateDate": "2025-08-26T23:03:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "joe",
+            "UserId": "AIDAJNTV4NOY3DX7P6EZU",
+            "Arn": "arn:aws:iam::838154183144:user/joe",
+            "CreateDate": "2018-01-11T03:57:19+00:00",
+            "PasswordLastUsed": "2025-08-26T20:07:08+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "juliet",
+            "UserId": "AIDA4GJPB4HUFUFLZWFJS",
+            "Arn": "arn:aws:iam::838154183144:user/juliet",
+            "CreateDate": "2025-08-26T23:03:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "mkingsley",
+            "UserId": "AIDA4GJPB4HUCG7WIKCFK",
+            "Arn": "arn:aws:iam::838154183144:user/mkingsley",
+            "CreateDate": "2021-01-30T03:21:28+00:00",
+            "PasswordLastUsed": "2021-01-30T03:23:15+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "romeo",
+            "UserId": "AIDA4GJPB4HUCWCSNNUDD",
+            "Arn": "arn:aws:iam::838154183144:user/romeo",
+            "CreateDate": "2025-08-26T23:03:30+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "tybalt",
+            "UserId": "AIDA4GJPB4HUA3X3KZ24O",
+            "Arn": "arn:aws:iam::838154183144:user/tybalt",
+            "CreateDate": "2025-08-26T23:03:30+00:00"
+        }
+    ]
+}
