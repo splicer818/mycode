@@ -1,0 +1,35 @@
+terraform {
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 2.22.0"
+    }
+  }
+}
+
+provider "docker" {
+}
+
+resource "docker_image" "acme" {
+  name         = "nginx:1.23.4"
+  keep_locally = true
+}
+
+
+resource "docker_container" "acme" {
+  name  = "tf-test"
+  image = docker_image.acme.image_id
+
+  upload {
+    content    = "To infinity, and beyond!"
+    file       = "/terraform/test1.txt"
+    executable = true
+  }
+
+  upload {
+    content    = "Good news, eveyone!"
+    file       = "/terraform/test2.txt"
+    executable = true
+  }
+}
+
